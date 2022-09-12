@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import InitPage from './components/InitPage';
+import InitPage from './src/screens/InitPage';
 
 export default function App() {
   return (

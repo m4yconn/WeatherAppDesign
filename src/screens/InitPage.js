@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Topo from './Topo';
-import Title from './Title';
-import Card from './Card';
+import Topo from '../components/Topo';
+import Title from '../components/Title';
+import Card from '../components/Card';
 
 export default function InitPage() {
   return (
