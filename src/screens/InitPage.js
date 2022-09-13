@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Topo from '../components/Topo';
 import Title from '../components/Title';
 import Card from '../components/Card';
+import Fotter from '../components/Fotter';
 
 export default function InitPage() {
   return (
@@ -14,6 +15,7 @@ export default function InitPage() {
         sub="Indonesia"  
       />
       <Card/>
+      <Fotter/>
       <StatusBar style="auto" />
     </View>
   );
