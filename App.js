@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import InitPage from './src/screens/InitPage';
+import Navigation from './src/screens/Navigation';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <InitPage/>
+      <Navigation/>
     </View>
   );
 }

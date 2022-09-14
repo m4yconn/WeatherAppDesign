@@ -6,13 +6,15 @@ import Title from '../components/Title';
 import Card from '../components/Card';
 import Fotter from '../components/Fotter';
 
-export default function InitPage() {
+export default function InitPage({navigation}) {
+
   return (
+
     <View style={styles.container}>
       <Topo/>
       <Title
         title="Bandung, "
-        sub="Indonesia"  
+        sub="Indonesia"
       />
       <Card/>
       <Fotter/>

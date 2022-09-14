@@ -1,6 +1,6 @@
 import { View, StyleSheet, Text, TouchableOpacity} from "react-native";
 
-export default function FotterTop(props){
+export default function FotterTop({route}, ...props){
     return(
         <View style={styles.container}>
             <Text style={styles.textMain}>
@@ -16,8 +16,12 @@ export default function FotterTop(props){
                             fontSize: 18,
                             marginLeft: 12
                         }}
+
+                        onPress = {() => {
+                            navigation.navigate('SecondPage')
+                        }}
                     >
-                        {">"} 
+                        <Text>{'>'}</Text>
                     </TouchableOpacity>
 
                 </Text>
