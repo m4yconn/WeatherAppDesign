@@ -1,6 +1,6 @@
 import { View, StyleSheet, Text, TouchableOpacity} from "react-native";
 
-export default function FotterTop({route}, ...props){
+export default function FotterTop(props){
     return(
         <View style={styles.container}>
             <Text style={styles.textMain}>
